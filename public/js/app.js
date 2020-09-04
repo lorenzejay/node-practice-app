@@ -6,7 +6,7 @@ const showTemperature = document.querySelector(".temperature");
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const weatherSearched = searchInput.value;
-  const url = `http://localhost:3000/weather?address=${weatherSearched}`;
+  const url = `/weather?address=${weatherSearched}`;
 
   showLocation.textContent = "loading...";
 
