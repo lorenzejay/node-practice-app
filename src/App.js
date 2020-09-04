@@ -3,7 +3,7 @@ const express = require("express");
 const hbs = require("hbs");
 const forecast = require("./utlis/forecast");
 const geocode = require("./utlis/geocode");
-const { request } = require("http");
+
 const app = express();
 
 //defining paths for express confg
